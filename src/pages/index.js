@@ -2,6 +2,7 @@ import Link from "next/link";
 import dbConnect from "../lib/dbConnect";
 import Pet from "../models/Pet";
 
+
 // TODO: Import Hours component
 
 const Index = ({ pets }) => {
@@ -38,6 +39,9 @@ const Index = ({ pets }) => {
                   ))}
                 </ul>
               </div>
+             
+
+             
 
               <div className="btn-container">
                 <Link href="/[id]/edit" as={`/${pet._id}/edit`}>
