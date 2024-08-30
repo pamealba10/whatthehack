@@ -35,6 +35,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
 
         <Hours></Hours>
+        <p>hi</p>
       
       </div>
     </>
